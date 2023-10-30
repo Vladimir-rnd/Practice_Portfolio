@@ -14,6 +14,32 @@
     flex-direction: column;
     align-items: start;
 }
+.thumbs {
+    margin-top: 2rem;
+    width: var(--main-window-width);
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .thumbs-icon {
+    border-radius: var(--thumbs-radius);
+    border: 5px solid var(--main-color);
+  }
+  
+  .thumbs-icon-:hover {
+    border: 5px solid var(--alt-color-1);
+  }
+
+  .project {
+    font-family: var(--alt-font);
+    font-size: var(--basement-font-size);
+    width: 40rem;
+    height: 30rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+  }
 
 .projects {
     margin-right: 1rem;
@@ -76,14 +102,14 @@
     width: 70rem;
 }
 
-.main-window>.thumbs {
+.thumbs {
     margin-top: 0rem;
     cursor: url("../img/cursor.svg"), auto;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
-.main-window>.thumbs>.project {
+.project {
     width: 30rem;
     height: auto;
     margin-bottom: 5rem;
@@ -95,7 +121,7 @@
     width: 25rem;
 }
 
-.main-window>.project-expl {
+.project-expl {
     width: 25rem;
 }
 
@@ -104,7 +130,10 @@
 }
 
 @media (max-width: 1399px) {
+    .project {width: 25rem;}
+
     .projects-expl {
+        width: 35%;
         letter-spacing: 0.3rem
     }
 
@@ -118,6 +147,7 @@
 }
 
 @media (max-width: 1199px) {
+
     .projects-screen-outer {
         width: 45rem;
     }
@@ -134,12 +164,14 @@
 }
 
 @media (max-width: 767px) {
-    .main-window>.thumbs>.project {
+    .project {
         width: 23rem;
     }
-    .main-window>.thumbs>.project>.thumbs-icon,
-    .main-window>.thumbs>.project>.project-expl {
-        width: 20rem;
+    .project-expl {
+        width: 24rem;
+    }
+    .thumbs-icon {
+        width: 23rem;
     }
     .projects-expl {
         margin-right: 1rem;
@@ -159,26 +191,29 @@
 
     body {
         --body-font-size: 1.6rem;
-        --expl-font-size: 1.5rem
+        --expl-font-size: 1.5rem;
+        --basement-font-size: 1.5rem;
     }
 }
 
 @media (max-width: 575px) {
     body {
-        --body-font-size: 1.6rem;
+        --body-font-size: 1.5rem;
         --expl-font-size: 1.4rem;
+        --basement-font-size: 1.3rem;
         --screen-height: 108rem;
     }
-    .main-window>.thumbs>.project {
+    .project {
         width: 18rem;
         margin-bottom: 2rem;
         margin-right: 1rem;
-
     }
-    .main-window>.thumbs>.project>.thumbs-icon,
-    .main-window>.thumbs>.project>.project-expl {
+    .thumbs-icon {
         width: 17rem;
      }
+     .project-expl {
+        width: 19rem;
+    }
 
     .projects-header, .projects-expl, .projects-screen-outer {
         width: calc(var(--main-window-width) - 2rem);
@@ -218,7 +253,7 @@
         display: block;
     }
 
-    .main-window>.thumbs {
+    .thumbs {
         display: none;
     }
 

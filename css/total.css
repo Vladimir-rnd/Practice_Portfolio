@@ -128,9 +128,6 @@
     --main-window-top: 10rem;
     --body-font-size: 2.2rem;
   }
-  .main-window > .thumbs {
-    width: 98%;
-  }
 }
 
 @media (max-width: 991px) {
@@ -171,12 +168,7 @@
   .template {
     padding-top: 1rem;
   }
-  .main-window > .thumbs {
-    justify-content: center;
-  }
-  .main-window, .thumbs > .project {
-    width: 35rem;
-  } 
+ 
 }
 
 @media (max-width: 767px) {
@@ -195,9 +187,7 @@
   .logo-code {
     margin-top: 1rem;
   }
-  .simple-starter-templ {
-    width: 90%;
-  }
+
   .skills {margin-left: 3rem;}
   .skills-icon {
     width: 15rem; 
@@ -221,7 +211,6 @@
     height: 2.5rem;
     right: 1rem;
   }
-
 
   .logo-code {
     margin-top: 0.5rem;
@@ -247,43 +236,13 @@
     display: none;
   }
 
-  .main-window > .frontend {
-    display: flex;
-    flex-direction: column; 
-  }
-
   .skills {
     margin-left: 0rem;
     margin-top: 1rem;
     width: var(--screen-width);
   }
   .skills-icon {width: 10rem;}
-
-  .main-window > .thumbs {
-    margin-top: 3rem;
-  } 
-
-  .simple-starter-templ {width: 15rem;} 
-
-  .main-window > .a-clean-simple {
-    width: calc(var(--screen-width) - 1rem);
-    margin-top: 2rem;
-  } 
-  .main-window, .thumbs > .project {
-    height: auto;
-    margin-bottom: 2rem;
-  } 
-  .main-window, .thumbs, .project > .project-expl {
-    height: auto;
-  } 
-  .main-window > .about-me {width: calc(var(--screen-width) - 5rem);}
   
-  .thumbs-icon {
-    width: 30rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-  }
-
   .menu {
     position: absolute;
     transition-property: width, visibility;
