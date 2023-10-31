@@ -124,7 +124,7 @@
   }
 .simple-starter-templ {width: 90%;}
 }
-@media (max-width: 359px) {
+@media (max-width: 374px) {
   .thumbs-1p {
     margin-top: 3rem;
     margin-left: 2rem;
@@ -146,7 +146,7 @@
     flex-direction: column; 
   }
   .a-clean-simple {
-    width: calc(var(--screen-width) - 1rem);
+    width: calc(var(--screen-width) - 3rem);
     margin-top: 2rem;
   } 
   .simple-starter-templ {width: 15rem;} 

@@ -137,7 +137,7 @@
   
   }
   
-  @media (max-width: 359px) {
+  @media (max-width: 374px) {
     body {
       --page-font-size: 1.7rem;
       --text-window-left: 2rem;

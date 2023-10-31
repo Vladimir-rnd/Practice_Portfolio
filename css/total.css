@@ -103,7 +103,7 @@
   stroke: var(--alt-color-1);
 }
 
-@media (min-width: 359px) {
+@media (min-width: 374px) {
   .footer {
     display: none;
   }
@@ -222,9 +222,9 @@
   }
 }
 
-@media (max-width: 359px) {
+@media (max-width: 374px) {
   body {
-    --screen-width: 36rem;
+    --screen-width: 37.5rem;
     --sidebar-width: 0rem;
     --big-font-size: 2rem;
     --template-font-size: 4rem;

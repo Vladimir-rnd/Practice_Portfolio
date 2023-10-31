@@ -76,7 +76,7 @@
 }
 
 .projects-screen-inner {
-    width: 90rem;
+    width: 135rem;
 }
 
 .projects-screen-inner-2 {
@@ -238,7 +238,7 @@
     }
 }
 
-@media (max-width: 359px) {
+@media (max-width: 374px) {
     body {
         --screen-height: 280rem;
     }
