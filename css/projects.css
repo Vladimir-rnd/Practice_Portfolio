@@ -238,7 +238,7 @@
     }
 }
 
-@media (max-width: 374px) {
+@media (max-width: 376px) {
     body {
         --screen-height: 280rem;
     }

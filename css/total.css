@@ -222,7 +222,7 @@
   }
 }
 
-@media (max-width: 374px) {
+@media (max-width: 376px) {
   body {
     --screen-width: 37.5rem;
     --sidebar-width: 0rem;
