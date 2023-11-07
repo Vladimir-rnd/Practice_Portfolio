@@ -23,7 +23,7 @@ body {
   --template-font-size: 10.5rem;
 
   --screen-height: 108rem; /* 1080px;*/
-  --screen-width: 192rem;
+  --screen-width: 198rem;
   --sidebar-width: calc(var(--screen-width) * 0.177); /*34rem*/
   --marker-height: 3.5rem;
   --logo-code-size: 12rem; 
